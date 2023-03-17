@@ -6,3 +6,7 @@ Day 1
   - DASA DevOps Principles and Lifecycle
   - Categories of DevOps Tools and Benefits
 
+Day 2
+  - Linux Operating System
+  - Basic Linux Commands
+  - Execute_Basic_Linux_Commands
