@@ -1,4 +1,4 @@
-# DevOps Training
+# DevOps BootCamp
 
 Day 1                                                                                 
   - Introduction to DevOps
