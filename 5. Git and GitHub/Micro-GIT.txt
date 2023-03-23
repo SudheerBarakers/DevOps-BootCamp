@@ -1,0 +1,94 @@
+mkdir local-repo
+cd local-repo
+
+git init  --------  convert normal folder to local repository
+
+
+
+3-tree arch
+
+working copy-----(add)-----staging-------(commit)------------repository------push to remote repo
+
+
+download-- git bash
+
+
+git add -------------( adding to staging)
+git commit--------- (staging to repository)
+git status
+
+
+
+git add test.html // moving file from working copy to staging area
+
+
+git commit // commit all at once
+git commit -m "Initial codes"
+
+git config --global user.name "sudheer-123"  // configure username 
+git config --global user.email "sudheerb89@yahoo.com" // and pwd
+
+git remote add origin https://github.com/SudheerBaraker/SudheerBaraker.git  // linking to remote repo
+
+git remote show origin   // show origin name
+
+
+git push origin main/master
+
+git pull origin main
+
+git branch // to know number of branches
+
+git pull origin sudheer_branch // pull branch
+
+git branch sudheer // create branch
+
+git checkout sudheer // to change branch from main to sudheer
+git checkout -b branch_name // create and checkout to that branch
+
+
+git push origin sudheer // push to sudheer branch
+
+git clone https://github.com/SudheerBaraker/SudheerBaraker.git // cloning 
+
+
+git remote set-url origin new-url //  to change git url
+
+
+
+-----------------------------------------------------
+
+To provide access to people
+
+settings/collaborators/add people/mail id
+
+--------------------------------------
+
+GIT Personal Access Token for third party
+=============================================
+
+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
+
+------------------------------------------------
+
+
+PR- Pull Request---------  
+
+
+in command prompt-------- git merge branch_name
+
+
+
+
+touch .gitignore
+vi gitignore //  write the files to be ignored
+
+
+git branch -d sudheer // delete branch in local
+
+git revert commit_id // reverting back after commiting
+
+
+amend///  adding or modifying
+
+
