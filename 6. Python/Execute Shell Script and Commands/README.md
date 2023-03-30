@@ -1,4 +1,4 @@
-## Executing Shell Scripts and Commands with Python
+### Executing Shell Scripts and Commands with Python
 
 Three primary ways to run Python shell commands.
 
