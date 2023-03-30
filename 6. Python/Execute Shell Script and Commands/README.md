@@ -47,3 +47,18 @@ Here. we are using the system() method to execute shell commands of echo.
     
     
 
+## Execute Shell Script using python
+
+Ex 1:
+     import subprocess
+
+     subprocess.run(['./test.sh'])
+     
+Ex 2: In case the script is having multiple arguements.
+
+      import subprocess
+
+      output = subprocess.call(["./test.sh","xyz","1234"])
+      print(output)
+      
+      
