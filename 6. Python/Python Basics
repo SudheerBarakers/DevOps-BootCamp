@@ -1,0 +1,81 @@
+Let's discuss the fundamentals of python.
+
+Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming.
+
+The Python interpreter and the extensive standard library are freely available in source or binary form for all major platforms from the Python web site, https://www.python.org/, and may be freely distributed.
+
+What python is used for?
+Web Development.
+Data Science.
+Machine Learning.
+Artificial Intelligence.
+Automation with DevOps.
+Automate general tasks.
+Python Installation.
+To install python3, just type the following command in the terminal and it will be installed automatically.
+
+1) Update the APT Repository
+$ apt-get update.
+
+2) Install Python
+$ apt-get install python3.6
+
+3) Verify Python
+When we type python, it shows default installed python that is 2.7.
+
+For Python3 type the following command, then it will show the other version as well.
+
+$ python3
+
+Python Data Types
+1.Numeric Data type
+In Python, numeric data type is used to hold numeric values.
+
+Integers, floating-point numbers and complex numbers fall under number category.
+
+int - holds signed integers of non-limited length. Ex: num1=3
+float - holds floating decimal points and it's accurate up to 15 decimal places. Ex: num2=2.3
+complex - holds complex numbers. Ex: num3=2+3j
+We can use the type() function to know which class a variable or a value belongs to.
+
+2. List Data Type
+List is an ordered collection of similar or different types of items separated by commas and enclosed within brackets [].
+
+# Basic List Operations
+Create a list.
+Access items of the link.
+Add item to the list.
+Remove the item from list.
+Change items in the list.
+For example,
+
+my_list = [“April”, “May”, “June”]
+
+print(my_list[1])
+
+my_list.append(“Apple”
+
+my_list.remove(“May”)
+
+3. String Data Type
+String is a sequence of characters represented by either single or double quotes. For example,
+
+name = “DevOps” print(name)
+
+message = ‘Welcome to DevOps’ print(message)
+
+4. Set Data Type
+Set is an unordered collection of unique items. Set is defined by values separated by commas inside braces {}. For example,
+
+emp_id = {123, 124, 231} print(emp_id)
+
+set does not allow duplicate values.
+
+5. Dictionary Data Type
+Python dictionary is an ordered collection of items. It stores elements in key/value pairs.
+
+Here, keys are unique identifiers that are associated with each value.
+
+Let’s see an example,
+
+dict = {1: “first name”, 2: “last name”, “age”:33}
