@@ -1,0 +1,31 @@
+Step 1: Create EC2 instance 
+Step 2: Conncet to server
+Step 3: Update the patch in the server
+        $ sudo apt-get update
+Step 4: Install JAVA
+        $ sudo apt-get install openjdk-17-jre-headless
+Step 5: Install Maven
+        $ sudo apt-get install maven
+        $ mvn -- version ( Check Version)
+Step 6: Install git
+        $ sudo apt-get git
+Step 7: Create directory and clone the repo
+        $ mkdir demo
+        $ cd demo
+        $ git clone <url>
+Step 8: Generate pom.xml
+        $ mvn archetype:geneate
+        
+        Provide the following information
+        1. Maven Version : 8 (recent) 
+        2. groupid       : com.bank
+        3. artifactId    : login
+        4. version       : 1.0
+        5. package       : JAR
+        
+Step 9: Build project
+        $ mvn clean package
+        ( Note: It does validattion, compilation, testing )
+        
+*** After building, It creates folder and inside that artifact will be generated.
+        

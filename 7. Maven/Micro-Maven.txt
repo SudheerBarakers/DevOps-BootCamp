@@ -1,0 +1,75 @@
+MAven- Powerful Project Management Tool
+=============
+-- Building and dependencies management tool
+-- Building means- converting cod into executable format.
+-- Its used for buils, dependency , documentations
+
+
+What?
+
+1. compiles source code== convert HL to LL
+2. Download all the dependencies. 
+3. JUnit TC-- Execute the TC
+4. Artifact or Packages or zip file into JAR
+
+
+package.json=== javascripts
+pom.xml== Project Object Model
+
+----------------------------------------------
+
+Types of Dependecies
+1. Direct:
+2. Transitive:
+
+** Maven supports both the dependencies
+
+Artifact
+=============
+1. Release artifact-- during releases 
+2. Snapshot artifact--  internal testing
+
+ex. java-1.1.1=== 1.Major Release 1.Minor release 1.for bugs 
+
+===============================
+
+
+Maven Repository
+-------------------
+1.Local---  loal machine
+2.Central-- download plugins from maven repo
+3.Remote-- located on the web 
+
+==========
+
+Build Life cycle
+------------------
+1.Prepare resources ------------- resorce copying
+2.Validate- mvn validate -------- Validating the info
+3.compile------------------------ Compilation----------- source code compilation
+4.mvn test----------------------- Testing------- tests compiled source code
+5.Package------------------------ packaging----This creates JAR/WAR
+
+========================================================================
+
+
+
+
+1. install java
+2. install mvn
+3. install git
+4. mkdir demo
+5. cd demo/
+6. git clone repo
+7. cd repo-name
+8. ls
+9. mvn archetype:generate // generates pom.xml in ur repo
+
+------------------------------------------
+mvn clean package======= to build code and create package--- clean -- cleans the old package
+
+create target folder/jar file
+------------------------------------------
+
+in linux , package installer, apt-get in ubuntu or yum in fedora
+ 
